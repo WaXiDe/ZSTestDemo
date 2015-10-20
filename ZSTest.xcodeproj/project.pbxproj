@@ -14,6 +14,7 @@
 		4E5C93A71BD5E4E2007649C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E5C93A61BD5E4E2007649C4 /* Images.xcassets */; };
 		4E5C93AA1BD5E4E2007649C4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E5C93A81BD5E4E2007649C4 /* LaunchScreen.xib */; };
 		4E5C93B61BD5E4E2007649C4 /* ZSTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5C93B51BD5E4E2007649C4 /* ZSTestTests.m */; };
+		4E5C93C11BD5F9A1007649C4 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5C93C01BD5F9A1007649C4 /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		4E5C93AF1BD5E4E2007649C4 /* ZSTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZSTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E5C93B41BD5E4E2007649C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E5C93B51BD5E4E2007649C4 /* ZSTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSTestTests.m; sourceTree = "<group>"; };
+		4E5C93BF1BD5F9A1007649C4 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		4E5C93C01BD5F9A1007649C4 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				4E5C93A61BD5E4E2007649C4 /* Images.xcassets */,
 				4E5C93A81BD5E4E2007649C4 /* LaunchScreen.xib */,
 				4E5C93991BD5E4E2007649C4 /* Supporting Files */,
+				4E5C93BF1BD5F9A1007649C4 /* TestViewController.h */,
+				4E5C93C01BD5F9A1007649C4 /* TestViewController.m */,
 			);
 			path = ZSTest;
 			sourceTree = "<group>";
@@ -221,6 +226,7 @@
 			files = (
 				4E5C93A21BD5E4E2007649C4 /* ViewController.m in Sources */,
 				4E5C939F1BD5E4E2007649C4 /* AppDelegate.m in Sources */,
+				4E5C93C11BD5F9A1007649C4 /* TestViewController.m in Sources */,
 				4E5C939C1BD5E4E2007649C4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +420,7 @@
 				4E5C93BB1BD5E4E2007649C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E5C93BC1BD5E4E2007649C4 /* Build configuration list for PBXNativeTarget "ZSTestTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +429,7 @@
 				4E5C93BE1BD5E4E2007649C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
